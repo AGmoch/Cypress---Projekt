@@ -29,5 +29,12 @@ describe("E2E - Lesson", () => {
         cy.visit("/")
         cy.contains("Shop now !")
         cy.contains('[title="Contact us"]','Contact us')
+        
+        cy.get ("li")
+        cy.get ("li").parents("#home-page-tabs").find("li").eq(1)
+        cy.get ("li").parents("#home-page-tabs").find("li").first()
+        cy.get ("li").parents("#home-page-tabs").find("li").contains("Best Sellers")
+
+
     })
 }) 
