@@ -5,14 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "open": "npx cypress open",
-    "all" : "npx cypress run",
-    "spec" : "npx cypress run --spec 'cypress/integration/klikanie.js'",
-    "specHeaded" : "npx cypress run --spec 'cypress/integration/klikanie.js ' --headed",
-    "chrome" : "npx cypress run --browser chrome --spec 'cypress/integration/klikanie.js ' --headed",
-    "firefox": "npm run spec -- --browser firefox",
-    "browser": "npm run spec -- --browser firefox $ npm run spec -- --browser edge"
-
+    "open": "npx cypress open"
   },
   "keywords": [
     "cypress",
@@ -22,7 +15,7 @@
   "author": "Artur Gmoch",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.5.1"
+    "cypress": "^12.17.4"
   },
   "dependencies": {
     "cypress-file-upload": "^5.0.8",
