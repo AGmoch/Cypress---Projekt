@@ -21,6 +21,6 @@ describe("E2E - Validation of Create new user process", ()=> {
         cy.get("#years").select("2010").should("have.value", "2010");
         cy.get("#newsletter").check()
         cy.get("#submitAccount").click()
-        cy.get("#alert alert-success").should("exist").and("contain", "Your account has been created.")
+        cy.get("p").should("exist").and("contain", "Your account has been created.")
     })
 })

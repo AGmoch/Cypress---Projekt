@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "open": "npx cypress open"
+    "open": "npx cypress open",
+    "chrome": "npx cypress run --record --key 8751bfd2-0956-4d71-ae5c-df06dea2d8be --browser chrome",
+    "edge": "npx cypress run --record --key 8751bfd2-0956-4d71-ae5c-df06dea2d8be --browser edge",
+    "electron": "npx cypress run --record --key 8751bfd2-0956-4d71-ae5c-df06dea2d8be --browser electron"
   },
   "keywords": [
     "cypress",
