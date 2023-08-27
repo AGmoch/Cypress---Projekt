@@ -8,6 +8,9 @@ module.exports = defineConfig({
       invalidEmail: 'invalid_email',
       validPassword: 'invalid_email',
       invalidPassword: '',
+      APIemail: 'artur.gmoch@gmail.com',
+      APIpassword: '123password',
+      APItoken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoiYXJ0dXIuZ21vY2hAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhcnR1cmdtb2NoIn0sImlhdCI6MTY5Mjk3NzY0NywiZXhwIjoxNjk4MTYxNjQ3fQ.7eIf8aPoYs0kanvMlzo0cR8yLz7xlTY8IegwFDqIug8'
     },
   includeShadowDom: true,
   chromeWebSecurity: true,
