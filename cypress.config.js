@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: '67h2d2',
 
     env: {
       validEmail: 'example@example.com',

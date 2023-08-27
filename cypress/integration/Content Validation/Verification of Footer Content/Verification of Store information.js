@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe("E2E - Verification of Store information", ()=> {
+describe("E2E - Verification of Store information Footer", ()=> {
     it("Verification of Address of Company on Store information", ()=> {
         cy.visit("/")
         //Checking if the element exist on the page
